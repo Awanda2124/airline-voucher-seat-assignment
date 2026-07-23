@@ -1,0 +1,47 @@
+*.log
+
+# Environment
+.env
+.env.backup
+.env.production
+
+# IDE / Editor
+.vscode/
+.idea/
+.nova/
+.zed/
+
+# PHP tools
+.phpactor.json
+.phpunit.result.cache
+.phpunit.cache
+
+# Dependencies
+/vendor/
+
+# Node dependencies (if used)
+node_modules/
+
+# Laravel cache / runtime
+/storage/*.key
+/storage/pail
+
+# Public generated files
+/public/build
+/public/hot
+/public/storage
+/public/fonts-manifest.dev.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Composer auth
+auth.json
+
+# Laravel local files
+Homestead.json
+Homestead.yaml
+
+# Keep SQLite database for assessment
+# DO NOT ignore database/database.sqlite
